@@ -219,6 +219,10 @@ function windowResized() {
 function mouseClicked(){
 	if (scene === 1){
 		if (mouseX>W-3*S/40 && mouseY>S/40 && mouseX<W-3*S/40+S/20 && mouseY<S/40+S/20) {
+			nCountList = [];
+			for (var i=1; i<diceRolls+1; i+=1){
+				nCountList.push(0);
+			}
 			probCompile();
 			drawMain();
 			scene = 2;
