@@ -9,4 +9,7 @@ html {
 	width: 100%;
 	overflow-x:hidden;
 	overflow-y:hidden;
+		
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
